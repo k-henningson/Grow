@@ -8,9 +8,8 @@ export default function Slider() {
 
   const data = [
     "https://www.floretflowers.com/wp-content/uploads/2021/12/Floret-Seed-Starting-Winter-Mini-home-700.jpg",
-    "https://cdn.shopify.com/s/files/1/2048/8041/files/Hardy_Annuals-10_1000x.jpg?v=1614319898",
     "https://www.floretflowers.com/wp-content/uploads/2016/10/Floret_Floret-FULL-SESSION-0150-960x1440.jpg",
-    "",
+    "https://github.com/k-henningson/Grow/blob/main/client/src/docs/foxglove.jpeg?raw=true",
   ];
 
   const prevSlide = () => {
@@ -26,7 +25,6 @@ export default function Slider() {
         <img src={data[0]} alt="flowers" />
         <img src={data[1]} alt="flowers" />
         <img src={data[2]} alt="flowers" />
-        <img src={data[3]} alt="flowers" />
       </div>
       <div className="icons">
         <div className="icon" onClick={prevSlide}>
