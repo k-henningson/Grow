@@ -41,7 +41,7 @@ export default function Footer() {
       </div>
       <div className="bottom">
         <div className="left">
-          <span className="logo">GROWstore</span>
+          <span className="logo">GROW 🌱</span>
           <span className="copywright">&nbsp;© Copyright 2023. All Rights Reserved</span>
         </div>
         <div className="right">

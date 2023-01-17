@@ -30,7 +30,7 @@ export default function Navbar() {
           </div>
         </div>
         <div className="center">
-          <Link className="link" to="/">GROWstore</Link>
+          <Link className="link" to="/">GROW 🌱</Link>
         </div>
         <div className="right">
           <div className="item">

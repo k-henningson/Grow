@@ -8,34 +8,30 @@ export default function FeaturedProducts({ type }) {
       img: "https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/GlobePastelMix.webp",
       img2: "https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/GlobePastelMix2.webp",
       title: "Globe Amaranth Pastel Mix",
-      isNew: true,
       oldPrice: 5.95,
       price: 4.95,
     },
     {
       id: 2,
-      img: "",
-      img2: "",
+      img: "https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Strawflower.webp",
+      img2: "https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Strawflower2.webp",
       title: "Strawflower Silvery Rose",
-      isNew: true,
       oldPrice: 5.95,
       price: 4.95,
     },
     {
       id: 3,
-      img: "",
-      img2: "",
+      img: "https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/BreadseedPoppy.webp",
+      img2: "https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/BreadseedPoppy2.webp",
       title: "Breadseed Poppy Frosted Salmon",
-      isNew: true,
       oldPrice: 5.95,
       price: 4.95,
     },
     {
       id: 4,
-      img: "",
-      img2: "",
+      img: "https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/MarigoldStarfire.webp",
+      img2: "https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/MarigoldStarfire2.webp",
       title: "Marigold Starfire Mix",
-      isNew: true,
       oldPrice: 5.95,
       price: 4.95,
     },
@@ -44,13 +40,8 @@ export default function FeaturedProducts({ type }) {
   return (
     <div className="featuredProducts">
       <div className="top">
-        <h1>{type} Popular Products</h1>
-        <p>
-          Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit
-          amet conse ctetur adipisicing elit, seddo eiusmod tempor incididunt ut
-          labore etdolore.
-        </p>
+        <h1>{type} POPULAR PRODUCTS</h1>
+        <p>SHOP OUR CURATED COLLECTION OF SPECIALTY FLOWER SEEDS & SUPPLIES</p>
       </div>
       <div className="bottom">
         {data.map((item) => (
