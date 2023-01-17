@@ -47,7 +47,7 @@ export default function Products() {
         </div>
       </div>
       <div className="right">
-        <img className="catImg" src="" alt="" />
+        <img className="catImg" src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/SeedBanner.webp" alt="Seed banner" />
         <List catId={catId} maxPrice={maxPrice} sort={sort}/>
       </div>
     </div>
