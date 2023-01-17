@@ -4,9 +4,13 @@ import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import { Link } from "react-router-dom";
-import "./Navbar.scss"
+import Cart from "../Cart/Cart"
+import "./Navbar.scss";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [open, setOpen] = useState(false);
+
   return (
     <div className="navbar">
       <div className="wrapper">
@@ -20,17 +24,25 @@ export default function Navbar() {
             <KeyboardArrowDownIcon />
           </div>
           <div className="item">
-            <Link className="link" to="/products/1">Cosmos</Link>
+            <Link className="link" to="/products/1">
+              Cosmos
+            </Link>
           </div>
           <div className="item">
-            <Link className="link" to="/products/2">Poppies</Link>
+            <Link className="link" to="/products/2">
+              Poppies
+            </Link>
           </div>
           <div className="item">
-            <Link className="link" to="/products/3">Zinnias</Link>
+            <Link className="link" to="/products/3">
+              Zinnias
+            </Link>
           </div>
         </div>
         <div className="center">
-          <Link className="link" to="/">GROW 🌱</Link>
+          <Link className="link" to="/">
+            GROW 🌱
+          </Link>
         </div>
         <div className="right">
           <div className="item">
@@ -57,13 +69,14 @@ export default function Navbar() {
             <SearchIcon />
             <PersonOutlineOutlinedIcon />
             <FavoriteBorderOutlinedIcon />
-            <div className="cartIcon">
+            <div className="cartIcon" onClick={() => setOpen(!open)}>
               <ShoppingCartOutlinedIcon />
               <span>0</span>
             </div>
           </div>
         </div>
       </div>
+      {open && <Cart />}
     </div>
   );
 }
