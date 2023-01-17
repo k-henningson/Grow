@@ -20,13 +20,13 @@ export default function Navbar() {
             <KeyboardArrowDownIcon />
           </div>
           <div className="item">
-            <Link className="link" to="/products/1">Women</Link>
+            <Link className="link" to="/products/1">Cosmos</Link>
           </div>
           <div className="item">
-            <Link className="link" to="/products/2">Men</Link>
+            <Link className="link" to="/products/2">Poppies</Link>
           </div>
           <div className="item">
-            <Link className="link" to="/products/3">Children</Link>
+            <Link className="link" to="/products/3">Zinnias</Link>
           </div>
         </div>
         <div className="center">

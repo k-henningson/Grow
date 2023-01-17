@@ -6,28 +6,28 @@ export default function Categories() {
     <div className="categories">
       <div className="col">
         <div className="row">
-          <img src="" alt="" />
+          <img src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Cosmos.webp" alt="Cosmos" />
           <button>
             <Link className="link" to="/products/1">
-              Sale
+              Cosmos
             </Link>
           </button>
         </div>
         <div className="row">
-          <img src="" alt="" />
+          <img src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Amaranth.webp" alt="Amaranth" />
           <button>
             <Link className="link" to="/products/1">
-              Sale
+              Foliage & Fillers
             </Link>
           </button>
         </div>
       </div>
       <div className="col">
         <div className="row">
-          <img src="" alt="" />
+          <img src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Cress.webp" alt="Cress" />
           <button>
             <Link className="link" to="/products/1">
-              Sale
+              Grasses & Pods
             </Link>
           </button>
         </div>
@@ -36,30 +36,30 @@ export default function Categories() {
         <div className="row">
           <div className="col">
             <div className="row">
-              <img src="" alt="" />
+              <img src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/ShirleyPoppy.webp" alt="Poppy" />
               <button>
                 <Link className="link" to="/products/1">
-                  Sale
+                  Poppies
                 </Link>
               </button>
             </div>
           </div>
           <div className="col">
             <div className="row">
-              <img src="" alt="" />
+              <img src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/SweetPea.webp" alt="Sweet Peas" />
               <button>
                 <Link className="link" to="/products/1">
-                  Sale
+                  Sweet Peas
                 </Link>
               </button>
             </div>
           </div>
         </div>
         <div className="row">
-          <img src="" alt="" />
+          <img src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Zinnia.webp" alt="Zinnias" />
           <button>
             <Link className="link" to="/products/1">
-              Sale
+              Zinnias
             </Link>
           </button>
         </div>

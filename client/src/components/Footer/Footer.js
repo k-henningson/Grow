@@ -6,11 +6,11 @@ export default function Footer() {
       <div className="top">
         <div className="item">
           <h1>Categories</h1>
-          <span>Women</span>
-          <span>Men</span>
-          <span>Shoes</span>
-          <span>Accessories</span>
-          <span>New Arrivals</span>
+          <span>Cosmos</span>
+          <span>Foliage & Fillers</span>
+          <span>Grasses & Pods</span>
+          <span>Poppies</span>
+          <span>Sweet Peas</span>
         </div>
         <div className="item">
           <h1>Links</h1>
