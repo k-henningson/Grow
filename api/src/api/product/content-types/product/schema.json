@@ -59,7 +59,7 @@
       "type": "enumeration",
       "enum": [
         "normal",
-        "featured"
+        "POPULAR"
       ]
     }
   }
