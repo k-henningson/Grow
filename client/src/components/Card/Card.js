@@ -6,13 +6,13 @@ export default function Card({ item }) {
     <Link className="link" to={`/product/${item.id}`}>
       <div className="card">
         <div className="image">
-          <img src={item.img} alt="seed packet" className="mainImg" />
-          <img src={item.img2} alt="seed packet" className="secondImg" />
+          <img src={process.env.REACT_APP_UPLOAD_URL+item.attributes?.img?.data?.attributes?.url} alt="seed packet" className="mainImg" />
+          <img src={process.env.REACT_APP_UPLOAD_URL+item.attributes?.img2?.data?.attributes?.url} alt="seed packet" className="secondImg" />
         </div>
-        <h2>{item.title}</h2>
+        <h2>{item?.attributes.title}</h2>
         <div className="prices">
-          <h3>${item.oldPrice}</h3>
-          <h3>${item.price}</h3>
+          <h3>${item.oldPrice || item?.attributes.price + 1}</h3>
+          <h3>${item?.attributes.price}</h3>
         </div>
       </div>
     </Link>
