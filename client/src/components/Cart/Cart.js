@@ -1,43 +1,38 @@
 import DeleteOutlinedIcon from "@mui/icons-material/DeleteOutlined";
+import { useSelector } from "react-redux";
 import "./Cart.scss";
 
 export default function Cart() {
-  const data = [
-    {
-      id: 1,
-      img: "https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/GlobePastelMix.webp",
-      img2: "https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/GlobePastelMix2.webp",
-      title: "Globe Amaranth Pastel Mix",
-      oldPrice: 5.95,
-      price: 4.95,
-    },
-    {
-      id: 2,
-      img: "https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Strawflower.webp",
-      img2: "https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Strawflower2.webp",
-      title: "Strawflower Silvery Rose",
-      oldPrice: 5.95,
-      price: 4.95,
-    },
-  ];
+  const products = useSelector((state) => state.cart.products);
+
+  const totalPrice = () => {
+    let total = 0;
+    products.forEach((item) => (total += item.quantity * item.price));
+    return total.toFixed(2)
+  };
 
   return (
     <div className="cart">
       <h1>Products in your cart</h1>
-      {data?.map((item) => (
+      {products?.map((item) => (
         <div className="item" key={item.id}>
-          <img src={item.img} alt="flowers" />
+          <img
+            src={process.env.REACT_APP_UPLOAD_URL + item.img}
+            alt="flowers"
+          />
           <div className="details">
             <h1>{item.title}</h1>
             <p>{item.desc?.substring(0, 100)}</p>
-            <div className="price">1 x ${item.price}</div>
+            <div className="price">
+              {item.quantity} x ${item.price}
+            </div>
           </div>
           <DeleteOutlinedIcon className="delete" />
         </div>
       ))}
       <div className="total">
         <span>SUBTOTAL</span>
-        <span>$5.95</span>
+        <span>${totalPrice()}</span>
       </div>
       <button>PROCEED TO CHECKOUT</button>
       <span className="reset">Empty Cart</span>
