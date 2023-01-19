@@ -16,7 +16,7 @@ export default function Categories() {
         <div className="row">
           <img src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Amaranth.webp" alt="Amaranth" />
           <button>
-            <Link className="link" to="/products/1">
+            <Link className="link" to="/products/6">
               Foliage & Fillers
             </Link>
           </button>
@@ -26,7 +26,7 @@ export default function Categories() {
         <div className="row">
           <img src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Cress.webp" alt="Cress" />
           <button>
-            <Link className="link" to="/products/1">
+            <Link className="link" to="/products/5">
               Grasses & Pods
             </Link>
           </button>
