@@ -38,7 +38,7 @@ export default function Categories() {
             <div className="row">
               <img src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/ShirleyPoppy.webp" alt="Poppy" />
               <button>
-                <Link className="link" to="/products/1">
+                <Link className="link" to="/products/4">
                   Poppies
                 </Link>
               </button>
@@ -48,7 +48,7 @@ export default function Categories() {
             <div className="row">
               <img src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/SweetPea.webp" alt="Sweet Peas" />
               <button>
-                <Link className="link" to="/products/1">
+                <Link className="link" to="/products/2">
                   Sweet Peas
                 </Link>
               </button>
@@ -58,7 +58,7 @@ export default function Categories() {
         <div className="row">
           <img src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Zinnia.webp" alt="Zinnias" />
           <button>
-            <Link className="link" to="/products/1">
+            <Link className="link" to="/products/3">
               Zinnias
             </Link>
           </button>
