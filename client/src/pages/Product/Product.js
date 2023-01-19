@@ -16,11 +16,6 @@ export default function Product() {
   const dispatch = useDispatch();
   const { data, loading, error } = useFetch(`/products/${id}?populate=*`);
 
-  // const images = [
-  //   "https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/GlobePastelMix.webp",
-  //   "https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/GlobePastelMix2.webp",
-  // ];
-
   return (
     <div className="product">
       {loading ? (
@@ -97,15 +92,18 @@ export default function Product() {
               </div>
             </div>
             <div className="info">
-              <span>Vendor: Polo</span>
-              <span>Product Type: T-Shirt</span>
-              <span>Tag: T-Shirt, Women, Top</span>
+              <span>Plant type: annual</span>
+              <span>Height: 36-42"</span>
+              <span>Site: full sun</span>
+              <span>Days to maturity: 75-90 days</span>
+              <span>Plant spacing: 12"</span>
+              <span>Approx seeds per packet: 30</span>
             </div>
             <hr />
             <div className="info">
-              <span>DESCRIPTION</span>
+              <span>HOW TO GROW</span>
               <hr />
-              <span>ADDITIONAL INFORMATION</span>
+              <span>HARVESTING / VASE LIFE</span>
               <hr />
               <span>FAQ</span>
             </div>

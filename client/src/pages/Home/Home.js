@@ -10,6 +10,7 @@ export default function Home() {
       <Slider />
       <FeaturedProducts type="POPULAR"/>
       <Categories />
+      <FeaturedProducts type="FEATURED"/>
       <Contact />
     </div>
   );
