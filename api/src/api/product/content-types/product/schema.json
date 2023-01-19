@@ -53,7 +53,8 @@
       "type": "enumeration",
       "enum": [
         "normal",
-        "POPULAR"
+        "POPULAR",
+        "FEATURED"
       ]
     },
     "categories": {
