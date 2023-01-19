@@ -43,12 +43,6 @@
     "price": {
       "type": "decimal"
     },
-    "categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::category.category",
-      "inversedBy": "products"
-    },
     "sub_categories": {
       "type": "relation",
       "relation": "manyToMany",
@@ -61,6 +55,12 @@
         "normal",
         "POPULAR"
       ]
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "products"
     }
   }
 }
