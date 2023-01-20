@@ -63,3 +63,14 @@ npm run develop
 ```
 npm run start
 ```
+
+6. Stripe payment details in test environment
+```sh
+Card number: 4242 4242 4242 4242
+```
+```sh
+Expiry: any future date
+```
+```sh
+CVC: 123
+```
