@@ -7,8 +7,8 @@ export default function Slider() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const data = [
-    "https://github.com/k-henningson/Grow/blob/main/client/src/docs/wateringSeedlings.jpeg?raw=true",
     "https://github.com/k-henningson/Grow/blob/main/client/src/docs/flowersInBuckets.jpeg?raw=true",
+    "https://github.com/k-henningson/Grow/blob/main/client/src/docs/wateringSeedlings.jpeg?raw=true",
     "https://github.com/k-henningson/Grow/blob/main/client/src/docs/foxglove.jpeg?raw=true",
   ];
 

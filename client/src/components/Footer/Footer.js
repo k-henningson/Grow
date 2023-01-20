@@ -1,4 +1,5 @@
 import "./Footer.scss";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -6,12 +7,36 @@ export default function Footer() {
       <div className="top">
         <div className="item">
           <h1>Categories</h1>
-          <span>Cosmos</span>
-          <span>Foliage & Fillers</span>
-          <span>Grasses & Pods</span>
-          <span>Poppies</span>
-          <span>Sweet Peas</span>
-          <span>Zinnias</span>
+          <span>
+            <Link className="link" to="/products/1">
+              Cosmos
+            </Link>
+          </span>
+          <span>
+            <Link className="link" to="/products/6">
+              Foliage & Fillers
+            </Link>
+          </span>
+          <span>
+            <Link className="link" to="/products/5">
+              Grasses & Pods
+            </Link>
+          </span>
+          <span>
+            <Link className="link" to="/products/4">
+              Poppies
+            </Link>
+          </span>
+          <span>
+            <Link className="link" to="/products/2">
+              Sweet Peas
+            </Link>
+          </span>
+          <span>
+            <Link className="link" to="/products/3">
+              Zinnias
+            </Link>
+          </span>
         </div>
         <div className="item">
           <h1>Links</h1>
@@ -24,16 +49,20 @@ export default function Footer() {
         <div className="item">
           <h1>About</h1>
           <span>
-            GROW 🌱 🌸 🌻 is an e-commerce application that sells flower seeds, focusing
-            on varieties that are rare, atypical, and passed down through
-            generations.
+            <a href="https://github.com/k-henningson/Grow">GROW</a> 🌱 🌸 🌻 is an e-commerce application that sells flower seeds,
+            focusing on varieties that are rare, atypical, and passed down
+            through generations.
           </span>
         </div>
         <div className="item">
           <h1>Contact</h1>
           <span>
-            Hi I'm <a href="https://www.linkedin.com/in/kyra-henningson-878488230/">Kyra</a> 👋! Full stack software engineer, former dental hygienist. Vancouver 🇨🇦
-            based, open to opportunities.
+            Hi I'm{" "}
+            <a href="https://www.linkedin.com/in/kyra-henningson-878488230/">
+              Kyra
+            </a>{" "}
+            👋! Full stack software engineer, former dental hygienist. Vancouver
+            🇨🇦 based, open to opportunities.
           </span>
         </div>
       </div>

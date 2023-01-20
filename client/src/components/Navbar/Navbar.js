@@ -4,8 +4,8 @@ import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import { Link } from "react-router-dom";
-import { useState } from 'react'
-import Cart from "../Cart/Cart"
+import { useState } from "react";
+import Cart from "../Cart/Cart";
 import "./Navbar.scss";
 import { useSelector } from "react-redux";
 
@@ -36,8 +36,8 @@ export default function Navbar() {
             </Link>
           </div>
           <div className="item">
-            <Link className="link" to="/products/3">
-              Zinnias
+            <Link className="link" to="/products/2">
+              Sweet Peas
             </Link>
           </div>
         </div>
@@ -48,23 +48,18 @@ export default function Navbar() {
         </div>
         <div className="right">
           <div className="item">
-            <Link className="link" to="/">
-              Homepage
+            <Link className="link" to="/products/3">
+              Zinnias
             </Link>
           </div>
           <div className="item">
-            <Link className="link" to="/">
-              About
+            <Link className="link" to="/products/5">
+              Grasses & Pods
             </Link>
           </div>
           <div className="item">
-            <Link className="link" to="/">
-              Contact
-            </Link>
-          </div>
-          <div className="item">
-            <Link className="link" to="/">
-              Stores
+            <Link className="link" to="/products/6">
+              Foliage & Fillers
             </Link>
           </div>
           <div className="icons">
