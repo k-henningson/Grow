@@ -7,6 +7,17 @@ GROW is an e-commerce application that sells flower seeds, focusing on varieties
 ## Final Product
 
 <table>
+ </tr>
+    </tr>
+    <tr>
+    <td><img src="https://github.com/k-henningson/Grow/blob/main/client/src/docs/Part%201.gif?raw=true"></td>
+    <td><img src="https://github.com/k-henningson/Grow/blob/main/client/src/docs/Part%202.gif?raw=true"></td>
+  </tr>
+    </tr>
+    <tr>
+    <td><img src="https://github.com/k-henningson/Grow/blob/main/client/src/docs/Part%203.gif?raw=true"></td>
+    <td><img src="https://github.com/k-henningson/Grow/blob/main/client/src/docs/Part%204.gif?raw=true"></td>
+  </tr>
   <tr>
     <td><img src="https://github.com/k-henningson/Grow/blob/main/client/src/docs/Home%20page%20&%20Slider.png?raw=true"></td>
     <td><img src="https://github.com/k-henningson/Grow/blob/main/client/src/docs/Categories.png?raw=true"></td>
@@ -22,17 +33,6 @@ GROW is an e-commerce application that sells flower seeds, focusing on varieties
     <tr>
     <td><img src="https://github.com/k-henningson/Grow/blob/main/client/src/docs/Cart.png?raw=true"></td>
     <td><img src="https://github.com/k-henningson/Grow/blob/main/client/src/docs/Stripe%20checkout%20page.png?raw=true"></td>
-  </tr>
-    </tr>
-    <tr>
-    <td><img src=""></td>
-    <td><img src=""></td>
-  </tr>
-    </tr>
-    <tr>
-    <td><img src=""></td>
-    <td><img src=""></td>
-  </tr>
 </table>
 <br></br>
 
