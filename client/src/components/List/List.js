@@ -9,11 +9,11 @@ export default function List({ maxPrice, sort, catId, subCats }) {
     )}&[filters][price][$lte]=${maxPrice}&sort=price:${sort}`
   );
 
+  console.log(data)
+
   return (
     <div className="list">
-      {loading
-        ? "loading"
-        : data?.map((item) => <Card item={item} key={item.id} />)}
+      {(data && data.length !== 0) ? data?.map((item) => <Card item={item} key={item.id} />) : "No products match filter"}
     </div>
   );
 }

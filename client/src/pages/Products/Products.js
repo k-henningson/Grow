@@ -13,7 +13,6 @@ export default function Products() {
   const { data, loading, error } = useFetch(
     `/sub-categories?[filters][categories][id][$eq]=${catId}`
   );
-  console.log(data);
 
   const handleChange = (e) => {
     const value = e.target.value;
