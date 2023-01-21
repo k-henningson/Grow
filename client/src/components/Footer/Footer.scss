@@ -1,5 +1,5 @@
 .footer {
-  margin: 100px 200px 20px 200px;
+  margin: 100px 100px 20px 100px;
 
   .top {
     display: flex;
@@ -16,11 +16,11 @@
       h1{
         font-size: 26px;
         font-weight: 500;
-        color: #555;
+        color: #666565;
       }
 
       span{
-        color: gray;
+        color: #666565;
       }
     }
   }
@@ -43,7 +43,7 @@
       .copyright{
         margin-left: 20px;
         font-size: 12px;
-        color: gray;
+        color: #666565;
       }
     }
     .right {

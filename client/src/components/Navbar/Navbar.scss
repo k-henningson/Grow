@@ -1,10 +1,10 @@
 .navbar {
   height: 80px;
-  color: gray;
+  color: #666565;
   text-transform: capitalize;
 
   .wrapper {
-    padding: 10px 35px;
+    padding: 10px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,7 +13,7 @@
   .item {
     display: flex;
     align-items: center;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .left {
@@ -21,9 +21,10 @@
     align-items: center;
     gap: 25px;
     min-width: 550px;
+    justify-content: flex-start;
   }
   .center {
-    font-size: 42px;
+    font-size: 32px;
     letter-spacing: 2px;
   }
   .right {
@@ -31,6 +32,7 @@
     align-items: center;
     gap: 25px;
     min-width: 550px;
+    justify-content: flex-end;
 
     .icons {
       display: flex;

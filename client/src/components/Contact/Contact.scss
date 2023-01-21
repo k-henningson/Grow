@@ -5,7 +5,6 @@
   display: flex;
   justify-content: center;
   height: 50px;
-  font-size: 20px;
 
   .wrapper{
     width: 50%;
@@ -17,13 +16,12 @@
       padding: 10px;
       border: none;
       border-radius: 5px 0 0  5px;
-      min-width: 250px;
     }
 
     button{
       padding: 10px;
       color: white;
-      background: #333;
+      background: #1f1f29;
       border-radius: 0 5px 5px 0;
       border: none;
     }
