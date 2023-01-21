@@ -49,9 +49,10 @@ export default function Footer() {
         <div className="item">
           <h1>About</h1>
           <span>
-            <a href="https://github.com/k-henningson/Grow">GROW</a> 🌱 🌸 🌻 is an e-commerce application that sells flower seeds,
-            focusing on varieties that are rare, atypical, and passed down
-            through generations.
+            <a href="https://github.com/k-henningson/Grow">GROW</a> 🌱 🌸 🌻 is
+            an e-commerce application that sells flower seeds, focusing on
+            varieties that are rare, atypical, and passed down through
+            generations.
           </span>
         </div>
         <div className="item">

@@ -21,7 +21,10 @@ export default function Slider() {
 
   return (
     <div className="slider">
-      <div className="container" style={{transform:`translateX(-${currentSlide * 100}vw)`}}>
+      <div
+        className="container"
+        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
+      >
         <img src={data[0]} alt="flowers" />
         <img src={data[1]} alt="flowers" />
         <img src={data[2]} alt="flowers" />

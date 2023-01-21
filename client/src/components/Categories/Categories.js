@@ -6,7 +6,10 @@ export default function Categories() {
     <div className="categories">
       <div className="col">
         <div className="row">
-          <img src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Cosmos.webp" alt="Cosmos" />
+          <img
+            src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Cosmos.webp"
+            alt="Cosmos"
+          />
           <button>
             <Link className="link" to="/products/1">
               Cosmos
@@ -14,7 +17,10 @@ export default function Categories() {
           </button>
         </div>
         <div className="row">
-          <img src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Amaranth.webp" alt="Amaranth" />
+          <img
+            src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Amaranth.webp"
+            alt="Amaranth"
+          />
           <button>
             <Link className="link" to="/products/6">
               Foliage & Fillers
@@ -24,7 +30,10 @@ export default function Categories() {
       </div>
       <div className="col">
         <div className="row">
-          <img src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Cress.webp" alt="Cress" />
+          <img
+            src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Cress.webp"
+            alt="Cress"
+          />
           <button>
             <Link className="link" to="/products/5">
               Grasses & Pods
@@ -36,7 +45,10 @@ export default function Categories() {
         <div className="row">
           <div className="col">
             <div className="row">
-              <img src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/ShirleyPoppy.webp" alt="Poppy" />
+              <img
+                src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/ShirleyPoppy.webp"
+                alt="Poppy"
+              />
               <button>
                 <Link className="link" to="/products/4">
                   Poppies
@@ -46,7 +58,10 @@ export default function Categories() {
           </div>
           <div className="col">
             <div className="row">
-              <img src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/SweetPea.webp" alt="Sweet Peas" />
+              <img
+                src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/SweetPea.webp"
+                alt="Sweet Peas"
+              />
               <button>
                 <Link className="link" to="/products/2">
                   Sweet Peas
@@ -56,7 +71,10 @@ export default function Categories() {
           </div>
         </div>
         <div className="row">
-          <img src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Zinnia.webp" alt="Zinnias" />
+          <img
+            src="https://raw.githubusercontent.com/k-henningson/Grow/main/client/src/docs/Zinnia.webp"
+            alt="Zinnias"
+          />
           <button>
             <Link className="link" to="/products/3">
               Zinnias
