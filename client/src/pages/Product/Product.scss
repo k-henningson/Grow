@@ -34,9 +34,13 @@
     flex-direction: column;
     gap: 30px;
 
+    h1 {
+      color: #1f1f29;
+    }
+
     .price{
       font-size: 30px;
-      color: #2879fe;
+      color: #1f1f29;
       font-weight: 500;
     }
 
@@ -44,6 +48,7 @@
       font-size: 18px;
       font-weight: 300;
       text-align: justify;
+      margin-right: 120px;
     }
 
     .quantity{
@@ -74,6 +79,11 @@
       cursor: pointer;
       border: none;
       font-weight: 500;
+      box-shadow: 3px 5px 5px 0px rgb(119, 145, 161);
+    }
+
+    .add:active {
+      transform: translateY(2px);
     }
 
     .links{

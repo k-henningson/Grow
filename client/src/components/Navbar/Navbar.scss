@@ -1,8 +1,10 @@
 .navbar {
   height: 80px;
+  color: gray;
+  text-transform: capitalize;
 
   .wrapper {
-    padding: 10px 30px;
+    padding: 10px 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,22 +13,24 @@
   .item {
     display: flex;
     align-items: center;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .left {
     display: flex;
     align-items: center;
     gap: 25px;
+    min-width: 550px;
   }
   .center {
-    font-size: 30px;
+    font-size: 42px;
     letter-spacing: 2px;
   }
   .right {
     display: flex;
     align-items: center;
     gap: 25px;
+    min-width: 550px;
 
     .icons {
       display: flex;
