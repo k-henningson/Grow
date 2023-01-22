@@ -1,6 +1,6 @@
 # GROW 🌱 🌸 🌻
 
-GROW is an e-commerce application that sells flower seeds, focusing on varieties that are rare, atypical, and passed down through generations.
+GROW is an e-commerce application that sells flower seeds, focusing on varieties that are rare, atypical, and passed down through generations. Clone of my favourite flower website Floret 💚
 <br></br>
 ## Final Product
 
