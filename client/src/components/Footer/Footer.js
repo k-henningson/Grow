@@ -52,7 +52,7 @@ export default function Footer() {
             <a href="https://github.com/k-henningson/Grow">GROW</a> 🌱 🌸 🌻 is
             an e-commerce application that sells flower seeds, focusing on
             varieties that are rare, atypical, and passed down through
-            generations.
+            generations. Clone of my favourite flower website Floret 💚
           </span>
         </div>
         <div className="item">
@@ -71,7 +71,7 @@ export default function Footer() {
         <div className="left">
           <span className="logo">GROW 🌱</span>
           <span className="copywright">
-            &nbsp;© Copyright 2023. All Rights Reserved
+            &nbsp;© Built by Kyra
           </span>
         </div>
         <div className="right">
